@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial;
+}
+
+body{
+    width: 100%;
+    background-color: #a2bed6;
+}
+
+h1{
+    margin: 0 auto 0 auto;
+    color: blue;
+}
