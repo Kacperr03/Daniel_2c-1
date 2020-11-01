@@ -30,7 +30,7 @@ body{
 .menu{
     float: left;
     display: block;
-    width: 25%;
+    width: 50%;
     background-color: lightcyan;
     text-align: center;
     padding: 10px 15px;
@@ -46,6 +46,7 @@ body{
 
 .menu:hover{
     text-decoration: underline;
+    background-color: aqua;
 }
 
 section h1{
