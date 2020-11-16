@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 300px;
+    margin: 15px auto 0 auto;
+    background-color: rgb(223, 253, 243);
+}
+
+table{
+    border: 1px solid black;
+}
+
+table th{
+    border: 1px solid black;
+}
+
+table td{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+caption{
+    font-weight: bold;
+    color: black;
+}
+    
