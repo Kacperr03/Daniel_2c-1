@@ -1,0 +1,68 @@
+body{
+    background-color: red;
+}
+
+h1{
+    color: #ffffff;
+}
+
+#first{
+    background-color: #c0c0c0;
+}
+
+#second{
+    background-color: #800000;
+}
+
+#third{
+    background-color: #ff0000;
+}
+
+#fourth{
+    background-color: #800080;
+}
+
+#fifth{
+    background-color: #008000;
+}
+
+#sixth{
+    background-color: #ffff00;
+}
+
+#seventh{
+    background-color: #000080;
+}
+
+#eigth{
+    background-color: #00ffff;
+}
+
+h3{
+    color: #ffffff;
+}
+
+#C{
+    color: pink;
+    background-color: navy;
+}
+
+#K{
+    color: blue;
+    background-color: pink;
+}
+
+#Z{
+    color: black;
+    background-color: #0099FF;
+}
+
+#i{
+    color: gray;
+    background-color: pink;
+}
+
+#U{
+    color: white;
+    background-color: navy;
+}
