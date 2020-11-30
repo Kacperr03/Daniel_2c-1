@@ -13,8 +13,8 @@ body{
 #second{
     font-family: Courier;
     color: orange;
+    font-weight: 900;
     font-style: italic;
-    font-weight: bold;
 }
 
 #third{
@@ -36,7 +36,8 @@ body{
 
 #sixth{
     font-family: Courier;
-    font-style: inherit;
+    font-variant: small-caps;
+    font-weight: bold;
 }
 
 #sixthad{
