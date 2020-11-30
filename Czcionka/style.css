@@ -1,0 +1,65 @@
+body{
+    margin: 100px;
+    background-color: olive;
+    text-align: justify;
+}
+
+#first{
+    font-family: Courier;
+    color: purple;
+    font-weight: bold;
+}
+
+#second{
+    font-family: Courier;
+    color: orange;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#third{
+    font-family: Verdana;
+    font-size: medium;
+}
+
+#fourth{
+    font-family: Arial;
+    color: #ff66ff;
+    font-weight: bold;
+    font-size: large;
+}
+
+#fifth{
+    font-family: Verdana;
+    font-size: 12pt;
+}
+
+#sixth{
+    font-family: Courier;
+    font-style: inherit;
+}
+
+#sixthad{
+    color: greenyellow;
+}
+
+#seventh{
+    color: navy;
+    font-style: italic;
+}
+
+#eigth{
+    font-family: Arial;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#text1{
+    font: 140% "Trebuchet MS", sans-serif;
+}
+
+#text2{
+    font: small-caps bold 200% verdana, sans-serif;
+}
