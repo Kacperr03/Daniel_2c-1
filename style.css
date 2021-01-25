@@ -38,6 +38,16 @@ ol a{
     color: black;
 }
 
+ul > li:hover{
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.x:hover{
+    font-style: oblique;
+    font-weight: bold;
+}
+
 ol > li {
     float: left;
     text-align: center;
