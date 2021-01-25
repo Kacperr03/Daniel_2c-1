@@ -43,9 +43,17 @@ ul > li:hover{
     font-weight: bold;
 }
 
+ul a:visited{
+    color: blue;
+}
+
 .x:hover{
     font-style: oblique;
     font-weight: bold;
+}
+
+.x:visited{
+    color: blue;
 }
 
 ol > li {
