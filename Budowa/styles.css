@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 245, 245);
+}
+
+body{
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+    font-family: 'Trebuchet MS';
+}
+
+h1{
+    text-align: center;
+    color:orange;
+    margin-bottom: 15px;
+}
+
+#front_page_list{
+    width: 75%;
+    margin: 15px auto 0 auto;
+}
+
+ol{
+    list-style: none;
+    text-align: center;
+}
+
+ol li{
+    display: inline;
+    width: 25%;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    border-right: 1px solid black;
+    padding: 0 5px;
+}
+
+.none{
+    border: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: orange;
+}
+
+ul{
+    padding-left: 75px;
+}
+
+ul li{
+    margin-bottom: 10px;
+}
+
+p{
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+#front-paragraph{
+    text-align: center;
+}
