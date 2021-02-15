@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+div{
+    background-image: url("obraz.jpg");
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+p{
+    margin-bottom: 25px;
+}
