@@ -4,14 +4,16 @@
 }
 
 body{
-    max-width: 800px;
-    margin: 0 auto 0 auto;
+    background-color: lightgray;
 }
 
 div{
+    margin: 50px 400px;
+    background-color: white;
     background-image: url("obraz.jpg");
     background-repeat: repeat-y;
     background-position: center;
+    border: 2px dashed black;
 }
 
 p{
