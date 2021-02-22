@@ -1,0 +1,40 @@
+img{
+    position: fixed;
+    left: 800px;
+    bottom: 700px;
+}
+
+div{
+    width: 200px;
+    border: 1px double black;
+}
+
+p{
+    width: 200pt;
+    border: 1px double black;
+}
+
+h3{
+    width: 20ex;
+    border: 1px double black;
+}
+
+h5{
+    width: 20em;
+    border: 1px double black;
+}
+
+#drugi{
+    width: 2.5cm;
+    border: 1px double black;
+    margin-bottom: 20px;
+}
+
+#wyliczanie{
+    width: 2in;
+    border: 1px double black;
+}
+
+li{
+    width: 3.5in;
+}
