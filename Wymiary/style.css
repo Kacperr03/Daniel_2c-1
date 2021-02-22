@@ -1,7 +1,7 @@
 img{
-    position: fixed;
-    left: 800px;
-    bottom: 700px;
+    position: absolute;
+    left: 500px;
+    border: 1px double black;
 }
 
 div{
