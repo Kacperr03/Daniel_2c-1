@@ -11,7 +11,7 @@ body{
 table{
     border-collapse: collapse;
     font-family: 'Trebuchet MS';
-    box-shadow: 0 6px 2px -1px gray;
+    box-shadow: 0 6px 2px -2px gray;
 }
 
 table, th, td{
@@ -85,8 +85,8 @@ h2{
 
 .first-table td{
     text-align: center;
-    border: 1px solid lightseagreen;
     color: lightseagreen;
+    border: none;
     width: 25%;
 }
 
