@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+}
+
+table{
+    border-collapse: collapse;
+    font-family: 'Trebuchet MS';
+}
+
+table, th, td{
+    border: 1px solid navy;
+    padding: 5px;
+}
+
+.second-table {
+    border-collapse: separate;
+    border:1px solid lightskyblue;
+    width:300px;
+    table-layout:fixed;
+}
+
+.third-table td{
+    border:1px solid blue;
+    text-align:left;
+    padding-left:5px;
+    width:200px;
+}
+    
+.fourth-table td.diff-td{
+    border:none;
+    text-align:right;
+    padding-right:10px;
+    width:100px;
+}
+    
+.fifth-table td th{
+    border:1px solid green;
+}
+
+th{
+    background-color:blue;
+    color:white;
+}
+
+hr{
+    margin-bottom: 10px;
+    border-color: navy;
+}
+
+caption{
+    margin: 10px;
+    font-family: 'Trebuchet MS';
+    color: navy;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+    border-bottom: 1px solid navy;
+}
+
+h2{
+    margin: 10px;
+    font-family: 'Trebuchet MS';
+    color: navy;
+    text-align: center;
+}
+
+.first-table{
+    margin:10px;
+    border: 1px solid navy;
+}
+
+.first-table th{
+    background-color: lightseagreen;
+    font-style: italic;
+}
+
+.first-table td{
+    text-align: center;
+    width: 25%;
+}
+
+.first-table .first{
+    text-align: right;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: lightseagreen;
+    color: white;
+    width: 25%;
+}
