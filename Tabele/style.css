@@ -11,6 +11,7 @@ body{
 table{
     border-collapse: collapse;
     font-family: 'Trebuchet MS';
+    box-shadow: 0 6px 2px -1px gray;
 }
 
 table, th, td{
@@ -72,16 +73,20 @@ h2{
 
 .first-table{
     margin:10px;
-    border: 1px solid navy;
+    
+    border: none;
 }
 
 .first-table th{
     background-color: lightseagreen;
     font-style: italic;
+    border: none;
 }
 
 .first-table td{
     text-align: center;
+    border: 1px solid lightseagreen;
+    color: lightseagreen;
     width: 25%;
 }
 
@@ -92,4 +97,13 @@ h2{
     background-color: lightseagreen;
     color: white;
     width: 25%;
+}
+
+.dvd{
+    border-radius: 0 15px 0 0;
+    width: 101px;
+}
+
+.blank-space{
+    border-radius: 15px 0 0 0;
 }
