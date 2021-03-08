@@ -1,0 +1,46 @@
+p { 
+    color: red; 
+} 
+
+table { 
+    width: 75%;                 
+    height: 100px; 
+    padding: 10px; 
+    margin: 15px auto 15px auto; 
+    background-color: red; 
+    border-radius: 15px; 
+    box-shadow: 5px 5px 50px grey; 
+    -moz-box-shadow: 5px 5px 50px grey; 
+    -webkit-box-shadow: 5px 5px 50px grey;
+} 
+
+div { 
+    position: 800px 500px;
+    width: 150px; 
+    line-height: 150px; 
+    margin: 0 auto; 
+    text-align: center; 
+    background-color: lightblue; 
+    border: 1px solid #000; 
+    transform: skew(20deg) rotate(-30deg); 
+    -moz-transform: skew(20deg) rotate(-30deg);  
+    -webkit-transform: skew(20deg) rotate(-30deg); 
+    -ms-transform: skew(20deg) rotate(-30deg); 
+} 
+
+.top{
+    margin-top: 150px;
+    transform: skew(-20deg) rotate(30deg);
+    -moz-transform: skew(-20deg) rotate(30deg);
+    -webkit-transform: skew(-20deg) rotate(30deg);
+    -ms-transform: skew(-20deg) rotate(30deg);
+    box-shadow: -6px -6px 10px 0 grey;
+    -moz-box-shadow: -6px -6px 10px 0 grey;
+    -webkit-box-shadow: -6px -6px 10px 0 grey;
+}
+
+.bottom{
+    box-shadow: -6px 6px 10px 0 grey;
+    -moz-box-shadow: -6px 6px 10px 0 grey;
+    -webkit-box-shadow: -6px 6px 10px 0 grey;
+}
