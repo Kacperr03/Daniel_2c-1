@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#kontener{
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto; 
+    border:3px solid black;
+    border-radius: 5px;
+    margin-top: 200px;
+    box-shadow: 0 0 2em rgb(31, 31, 31);
+    -webkit-box-shadow: 0 0 2em rgb(31, 31, 31);
+    -moz-box-shadow: 0 0 2em rgb(31, 31, 31);
+    font-family: 'Trebuchet MS';
+} 
+
+#naglowek{
+    height: 150px;
+    background: #9CF;
+    color: navy;
+}
+
+#lewy{
+    width: 170px;
+    float: left;
+    background: #ABC;
+}
+
+#prawy{
+    width: 580px;
+    float: left;
+    background: lightgrey;
+}
+
+#stopka{
+    clear: both;
+    background: #9CF;
+}
