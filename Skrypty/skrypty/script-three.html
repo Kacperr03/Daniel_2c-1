@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        Skrypt generujący losowy link
+        <br>
+        
+        <script>
+            
+            /*
+            Random link button- By JavaScript Kit (http://javascriptkit.com)
+            Over 300+ free scripts!
+            This credit MUST stay intact for use
+            */
+            
+            //specify random links below. You can have as many as you want
+            var randomlinks=new Array()
+            
+            randomlinks[0]="http://freewarejava.com"
+            randomlinks[1]="http://javascriptkit.com"
+            randomlinks[2]="http://dynamicdrive.com"
+            randomlinks[3]="http://cnn.com"
+            randomlinks[4]="http://www.geocities.com"
+            randomlinks[5]="https://www.w3schools.com"
+            randomlinks[6]="https://docs.microsoft.com/pl-pl/learn/"
+            randomlinks[7]="https://pl.glosbe.com"
+            randomlinks[8]="https://kacperr03.github.io/Daniel_2c-1/"
+            randomlinks[9]="https://www.udemy.com"
+            
+
+            function randomlink(){
+            window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+            }
+            //-->
+            </script>
+            <form method="post">
+            <p><input type="button" name="B1" value="Random Link >>" onclick="randomlink()"></p> </form>
+            
+            <!--Uncomment below to use a regular text link instead
+            <a href="javascript:randomlink()">Random Link</a>
+            -->
+    </body>
+</html>
