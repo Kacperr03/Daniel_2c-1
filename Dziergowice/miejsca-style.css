@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial;
+}
+
+body{
+    background-color: rgb(201, 255, 199);
+}
+
+#wrapper{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    background-color: rgb(177, 255, 173);
+}
+
+#topheader{
+    width: 100%;
+    text-align: center;
+    height: 75px;
+    color: rgb(0, 80, 0);
+    padding-top: 15px;
+}
+
+.firstPlace header{
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+
+.firstPlace img{
+    float: left;
+}
+
+.firstPlace article{
+    text-align: justify;
+}
