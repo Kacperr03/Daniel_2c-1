@@ -6,14 +6,17 @@
 }
 
 body{
-    background-color: rgb(201, 255, 199);
+    background-image: url(grafika/cool-background.png);
+    background-size: cover;
+    background-position: 3000px;
 }
 
 #wrapper{
-    max-width: 1200px;
+    max-width: 1000px;
     width: 100%;
-    margin: 0 auto 0 auto;
-    background-color: rgb(177, 255, 173);
+    margin: 50px auto 50px auto;
+    background-color: rgb(204, 255, 202);
+    border-radius: 25px;
 }
 
 #topheader{
@@ -24,16 +27,131 @@ body{
     padding-top: 15px;
 }
 
-h2{
-    font-weight: bold;
-    font-size: 14px;
-    text-align: center;
+hr{
+    border: 1px solid green;
+    width: 75%;
+    position: relative;
+    left: 125px;
 }
 
-.firstPlace img{
+h2{
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+article{
+    text-align: justify;
+    font-size: 18px;
+    padding: 20px;
+    line-height: 20px;
+}
+
+.firstPlace h2, .thirdPlace h2{
+    position: relative;
+    left: 500px;
+}
+
+.fifthPlace h2{
+    position: relative;
+    left: 450px;
+}
+
+.secondPlace h2{
+    position: relative;
+    left: 350px;
+}
+
+.fourthPlace h2{
+    position: relative;
+    left: 150px;
+}
+
+.firstPlace img, .thirdPlace img{
     float: left;
+    width: 20%;
+    border-radius: 10px;
 }
 
 .firstPlace article{
-    text-align: justify;
+    margin-bottom: 60px;
+}
+
+.firstPlace p{
+    padding-left: 210px;
+    padding-top: 30px;
+}
+
+.secondPlace img{
+    float: right;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.secondPlace article{
+    margin-bottom: 60px;
+}
+
+.secondPlace p{
+    padding-right: 230px;
+    padding-top: 30px;
+}
+
+.thirdPlace article{
+    margin-bottom: 60px;
+}
+
+.thirdPlace p{
+    padding-left: 210px;
+    padding-top: 30px;
+}
+
+.fourthPlace article{
+    margin-bottom: 60px;
+}
+
+.fourthPlace p{
+    padding-right: 230px;
+    padding-top: 30px;
+}
+
+.fourthPlace img{
+    width: 22%;
+    float: right;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.fifthPlace img{
+    margin-left: 15px;
+    margin-top: 55px;
+    width: 25%;
+    float: left;
+    border-radius: 10px;
+}
+
+.fifthPlace p{
+    padding-left: 260px;
+    padding-top: 20px;
+}
+
+footer{
+    height: 50px;
+    background-color: rgb(178, 255, 175);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-align: center;
+}
+
+a{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    font-style: oblique;
 }
