@@ -154,4 +154,6 @@ a{
 
 a:hover{
     font-style: oblique;
+    color: green;
+    font-weight: bold;
 }
