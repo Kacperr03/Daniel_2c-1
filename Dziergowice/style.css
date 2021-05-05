@@ -45,12 +45,14 @@ h1{
 }
 
 .active{
-    text-decoration: underline;
+    font-style: oblique;
+    font-weight: bold;
     background-color: #79fda1;
 }
 
 .menu:hover{
-    text-decoration: underline;
+    font-style: oblique;
+    font-weight: bold;
     background-color: #79fda1;
 }
 
