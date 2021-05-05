@@ -47,9 +47,14 @@ article{
     line-height: 20px;
 }
 
-.firstPlace h2, .thirdPlace h2{
+.firstPlace h2{
     position: relative;
     left: 500px;
+}
+
+.thirdPlace h2{
+    position: relative;
+    left: 425px;
 }
 
 .fifthPlace h2{
@@ -102,8 +107,14 @@ article{
 }
 
 .thirdPlace p{
-    padding-left: 210px;
+    padding-left: 260px;
     padding-top: 30px;
+}
+
+.thirdPlace img{
+    margin-top: 85px;
+    margin-left: 15px;
+    width: 25%;
 }
 
 .fourthPlace article{
